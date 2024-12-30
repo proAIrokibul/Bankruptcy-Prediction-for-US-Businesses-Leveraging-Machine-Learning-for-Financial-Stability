@@ -1,5 +1,7 @@
 # Bankruptcy-Prediction-for-US-Businesses-Leveraging-Machine-Learning-for-Financial-Stability
 
+# Bankruptcy Prediction Using Financial Probabilities  
+
 ## Overview  
 This project focuses on developing a robust bankruptcy prediction system using a dataset of financial probabilities and market indicators. The dataset contains features such as probabilities generated from various prediction models, volatility metrics, and multipliers, enabling detailed analysis and accurate classification of companies at risk of bankruptcy. By leveraging machine learning models and comprehensive data analysis, the project aims to provide actionable insights for businesses, investors, and policymakers.  
 
@@ -16,6 +18,11 @@ This project focuses on developing a robust bankruptcy prediction system using a
 
 ### Logistic Regression  
 - **Accuracy**: 99.97%  
+- **Confusion Matrix**:  
+  ```
+  [[     0     90]
+   [     0 338403]]
+  ```
 - **Classification Report**:  
   ```
                 precision    recall  f1-score   support
@@ -30,6 +37,11 @@ This project focuses on developing a robust bankruptcy prediction system using a
 
 ### Random Forest  
 - **Accuracy**: 100%  
+- **Confusion Matrix**:  
+  ```
+  [[    90      0]
+   [     0 338403]]
+  ```
 - **Classification Report**:  
   ```
                 precision    recall  f1-score   support
@@ -44,6 +56,11 @@ This project focuses on developing a robust bankruptcy prediction system using a
 
 ### XGBoost  
 - **Accuracy**: 99.99%  
+- **Confusion Matrix**:  
+  ```
+  [[    88      2]
+   [     3 338400]]
+  ```
 - **Classification Report**:  
   ```
                 precision    recall  f1-score   support
@@ -75,17 +92,15 @@ This project focuses on developing a robust bankruptcy prediction system using a
 
 ---
 
-## Technologies Used  
-- **Python**: For data preprocessing, visualization, and modeling.  
-- **Libraries**: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, XGBoost.  
-- **Machine Learning**: Logistic Regression, Random Forest, and XGBoost for classification.  
-
----
-
 ## Future Scope  
 - **Enhanced Feature Engineering**: Add macroeconomic indicators such as GDP, inflation rates, and interest rates to improve model accuracy.  
 - **Deep Learning Models**: Experiment with neural networks for more complex patterns and relationships.  
 - **Real-Time Prediction**: Develop a pipeline for real-time bankruptcy predictions using financial APIs.  
+
+---
+
+## Conclusion  
+This project demonstrates the power of data-driven decision-making in addressing real-world financial challenges. By predicting bankruptcy risks and analyzing contributing factors, it serves as a valuable tool for businesses and investors, paving the way for smarter, more informed financial strategies.  
 
 ---
 
