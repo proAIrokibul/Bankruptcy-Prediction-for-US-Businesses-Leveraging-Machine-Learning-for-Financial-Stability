@@ -28,7 +28,7 @@ This project focuses on developing a robust bankruptcy prediction system using a
 
      accuracy                           1.00    338493
     macro avg       0.50      0.50      0.50    338493
- weighted avg       1.00      1.00      1.00    338493
+  weighted avg       1.00      1.00      1.00    338493
   ```  
 
 ### Random Forest  
@@ -42,7 +42,7 @@ This project focuses on developing a robust bankruptcy prediction system using a
 
      accuracy                           1.00    338493
     macro avg       1.00      1.00      1.00    338493
- weighted avg       1.00      1.00      1.00    338493
+  weighted avg       1.00      1.00      1.00    338493
   ```  
 
 ### XGBoost  
@@ -56,7 +56,7 @@ This project focuses on developing a robust bankruptcy prediction system using a
 
      accuracy                           1.00    338493
     macro avg       0.98      0.99      0.99    338493
- weighted avg       1.00      1.00      1.00    338493
+  weighted avg       1.00      1.00      1.00    338493
   ```  
 
 ---
