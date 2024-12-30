@@ -17,13 +17,9 @@ This project focuses on developing a robust bankruptcy prediction system using a
 ## Performance of Machine Learning Models  
 
 ### Logistic Regression  
-- **Accuracy**: 99.97%  
-- **Confusion Matrix**:  
-  ```
-  [[     0     90]
-   [     0 338403]]
-  ```
-- **Classification Report**:  
+- Accuracy: 99.97%  
+
+- Classification Report:  
   ```
                 precision    recall  f1-score   support
 
@@ -36,13 +32,8 @@ This project focuses on developing a robust bankruptcy prediction system using a
   ```  
 
 ### Random Forest  
-- **Accuracy**: 100%  
-- **Confusion Matrix**:  
-  ```
-  [[    90      0]
-   [     0 338403]]
-  ```
-- **Classification Report**:  
+- Accuracy: 100%  
+- Classification Report:  
   ```
                 precision    recall  f1-score   support
 
@@ -55,13 +46,8 @@ This project focuses on developing a robust bankruptcy prediction system using a
   ```  
 
 ### XGBoost  
-- **Accuracy**: 99.99%  
-- **Confusion Matrix**:  
-  ```
-  [[    88      2]
-   [     3 338400]]
-  ```
-- **Classification Report**:  
+- Accuracy: 99.99%  
+- Classification Report:  
   ```
                 precision    recall  f1-score   support
 
@@ -76,33 +62,21 @@ This project focuses on developing a robust bankruptcy prediction system using a
 ---
 
 ## Key Features  
-- **Dataset**: Includes columns such as probabilities derived from predictive models (`probability_light`, `probability_convolution`, etc.), `volatility`, and `multiplier`.  
-- **Exploratory Data Analysis (EDA)**: Detailed analysis of feature distributions, correlations, outliers, and time series trends.  
-- **Machine Learning Models**: Applied Logistic Regression, Random Forest, and XGBoost for bankruptcy classification.  
-- **Model Comparison**: Evaluated models using performance metrics to determine the most effective approach.  
+- Dataset: Includes columns such as probabilities derived from predictive models (`probability_light`, `probability_convolution`, etc.), `volatility`, and `multiplier`.  
+- Exploratory Data Analysis (EDA): Detailed analysis of feature distributions, correlations, outliers, and time series trends.  
+- Machine Learning Models: Applied Logistic Regression, Random Forest, and XGBoost for bankruptcy classification.  
+- Model Comparison: Evaluated models using performance metrics to determine the most effective approach.  
 
 ---
 
 ## Business Impacts  
-1. **Proactive Risk Management**: By identifying companies with high bankruptcy risks, businesses can mitigate financial losses and improve risk management strategies.  
-2. **Investor Confidence**: Providing reliable predictions helps investors make data-driven decisions, enhancing trust and market stability.  
-3. **Policy Development**: Insights derived from probability trends and risk factors can assist regulators in formulating policies to safeguard industries from large-scale financial failures.  
-4. **Cost Optimization**: Early predictions of bankruptcy allow companies to allocate resources more effectively, reducing the costs associated with late-stage interventions.  
-5. **Market Stability**: Predictive insights contribute to maintaining the overall health and stability of financial markets.  
-
----
-
-## Future Scope  
-- **Enhanced Feature Engineering**: Add macroeconomic indicators such as GDP, inflation rates, and interest rates to improve model accuracy.  
-- **Deep Learning Models**: Experiment with neural networks for more complex patterns and relationships.  
-- **Real-Time Prediction**: Develop a pipeline for real-time bankruptcy predictions using financial APIs.  
-
+1. Proactive Risk Management: By identifying companies with high bankruptcy risks, businesses can mitigate financial losses and improve risk management strategies.  
+2. Investor Confidence: Providing reliable predictions helps investors make data-driven decisions, enhancing trust and market stability.  
+3. Policy Development: Insights derived from probability trends and risk factors can assist regulators in formulating policies to safeguard industries from large-scale financial failures.  
+4. Cost Optimization: Early predictions of bankruptcy allow companies to allocate resources more effectively, reducing the costs associated with late-stage interventions.  
+5. Market Stability: Predictive insights contribute to maintaining the overall health and stability of financial markets.  
 ---
 
 ## Conclusion  
 This project demonstrates the power of data-driven decision-making in addressing real-world financial challenges. By predicting bankruptcy risks and analyzing contributing factors, it serves as a valuable tool for businesses and investors, paving the way for smarter, more informed financial strategies.  
 
----
-
-## Conclusion  
-This project demonstrates the power of data-driven decision-making in addressing real-world financial challenges. By predicting bankruptcy risks and analyzing contributing factors, it serves as a valuable tool for businesses and investors, paving the way for smarter, more informed financial strategies.  
